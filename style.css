@@ -10,3 +10,7 @@ h1{
 .diceArea{
     margin:5%;
 }
+button{
+    height: 50px;
+    width: 150px;
+}
