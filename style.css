@@ -2,15 +2,25 @@
 body{
     background-color:#91d18b;
 }
-h1{
-    color:white;
+#result{
+    color:#3b5249;
     font-family: 'Bangers', cursive;
     font-size:70px;
 }
+.player{
+    color:whitesmoke;
+    font-family: 'Bangers', cursive;
+    font-size:100px;
+}
 .diceArea{
-    margin:5%;
+    margin:3%;
 }
 button{
     height: 50px;
     width: 150px;
+}
+.players{
+    color:green;
+    font-size:50px;
+
 }

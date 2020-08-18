@@ -9,13 +9,21 @@ function()
     if(num1>num2)
     {
         document.getElementById("result").innerText="Player 1 Wins";
+        document.querySelector("#player1 h1").classList.add("players");
+        document.querySelector("#player2 h1").classList.remove("players");
     }
     else if(num1<num2)
     {
         document.getElementById("result").innerText="Player 2 Wins";
+        document.querySelector("#player1 h1").classList.remove("players");
+        
+        document.querySelector("#player2 h1").classList.add("players"); 
     }
     else
     {
         document.getElementById("result").innerText="It's a tie";
+        document.querySelector("#player1 h1").classList.add("players");
+        document.querySelector("#player2 h1").classList.add("players");
+    
     }
 }
