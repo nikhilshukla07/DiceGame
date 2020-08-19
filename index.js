@@ -16,7 +16,6 @@ function()
     {
         document.getElementById("result").innerText="Player 2 Wins";
         document.querySelector("#player1 h1").classList.remove("players");
-        
         document.querySelector("#player2 h1").classList.add("players"); 
     }
     else
